@@ -23,15 +23,15 @@ This project aims to develop a credit card fraud detection system using machine 
 <br>
 The data preprocessing part involves loading the credit card dataset from a CSV file and performing exploratory data analysis (EDA) to gain insights into the data. The following steps are performed:<br>
 
-    The dataset is loaded using the pandas library.<br>
-    Initial data exploration is conducted by displaying the first few rows of the dataset using the **head()** function.<br>
-    Missing values in the dataset are identified using the isnull().sum() function.<br>
-    The distribution of the 'Time' column is analyzed by counting the occurrences of each unique value using value_counts().sum().<br>
-    The 'Time' column is dropped from the dataset as it is not relevant for the fraud detection task.<br>
-    The display option is set to show all columns of the DataFrame using pd.pandas.set_option('display.max_columns', None).<br>
+    The dataset is loaded using the pandas library.
+    Initial data exploration is conducted by displaying the first few rows of the dataset using the ** head() ** function.
+    Missing values in the dataset are identified using the isnull().sum() function.
+    The distribution of the 'Time' column is analyzed by counting the occurrences of each unique value using value_counts().sum().
+    The 'Time' column is dropped from the dataset as it is not relevant for the fraud detection task.
+    The display option is set to show all columns of the DataFrame using pd.pandas.set_option('display.max_columns', None).
 
 After data preprocessing, the dataset is split into training and testing sets using the train_test_split function from sklearn. The input features are stored in X, and the target variable ('Class') is stored in y.<br><br>
-# Model Deployment<br>
+# Model Deployment <br>
 
 The model deployment part involves training a Decision Tree Classifier on the preprocessed data and creating a Flask web application for fraud prediction. The following steps are performed:<br><br>
 
