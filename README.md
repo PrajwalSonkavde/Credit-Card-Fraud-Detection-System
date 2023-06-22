@@ -19,8 +19,8 @@ The provided code consists of two parts: data preprocessing and model deployment
 <br>
 This project aims to develop a credit card fraud detection system using machine learning techniques. The system utilizes a dataset containing credit card transactions and employs a Decision Tree Classifier to predict whether a transaction is fraudulent or not. The project is divided into two parts: data preprocessing and model deployment.
 <br>
-# Data Preprocessing
-<br>
+
+# Data Preprocessing <br>
 The data preprocessing part involves loading the credit card dataset from a CSV file and performing exploratory data analysis (EDA) to gain insights into the data. The following steps are performed:<br>
 
     The dataset is loaded using the pandas library.
