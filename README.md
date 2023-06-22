@@ -15,11 +15,11 @@ Results Looks like ... :
 
 The provided code consists of two parts: data preprocessing and model deployment using Flask
 <br>
-Credit Card Fraud Detection System
+# Credit Card Fraud Detection System
 <br>
 This project aims to develop a credit card fraud detection system using machine learning techniques. The system utilizes a dataset containing credit card transactions and employs a Decision Tree Classifier to predict whether a transaction is fraudulent or not. The project is divided into two parts: data preprocessing and model deployment.
 <br>
-Data Preprocessing
+# Data Preprocessing
 <br>
 The data preprocessing part involves loading the credit card dataset from a CSV file and performing exploratory data analysis (EDA) to gain insights into the data. The following steps are performed:<br>
 
@@ -31,7 +31,7 @@ The data preprocessing part involves loading the credit card dataset from a CSV 
     The display option is set to show all columns of the DataFrame using pd.pandas.set_option('display.max_columns', None).<br>
 
 After data preprocessing, the dataset is split into training and testing sets using the train_test_split function from sklearn. The input features are stored in X, and the target variable ('Class') is stored in y.<br><br>
-Model Deployment<br>
+# Model Deployment<br>
 
 The model deployment part involves training a Decision Tree Classifier on the preprocessed data and creating a Flask web application for fraud prediction. The following steps are performed:<br><br>
 
