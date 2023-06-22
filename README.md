@@ -24,7 +24,7 @@ This project aims to develop a credit card fraud detection system using machine 
 The data preprocessing part involves loading the credit card dataset from a CSV file and performing exploratory data analysis (EDA) to gain insights into the data. The following steps are performed:<br>
 
     The dataset is loaded using the pandas library.<br>
-    Initial data exploration is conducted by displaying the first few rows of the dataset using the head() function.<br>
+    Initial data exploration is conducted by displaying the first few rows of the dataset using the **head()** function.<br>
     Missing values in the dataset are identified using the isnull().sum() function.<br>
     The distribution of the 'Time' column is analyzed by counting the occurrences of each unique value using value_counts().sum().<br>
     The 'Time' column is dropped from the dataset as it is not relevant for the fraud detection task.<br>
