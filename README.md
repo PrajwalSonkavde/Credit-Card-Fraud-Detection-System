@@ -1,5 +1,5 @@
 # Credit-Card-Fraud-Detection-System
-This Project is made up of html , and python and python librarie. It takes inputs in html page and the model predicts whether the credit card is fraud or not , Since I was un-aware of features in datasets , My Aim was to just build a model which operates on GUI Interface
+This Project is made up of html , and python and python librarie. It takes inputs in html page and the model predicts whether the credit card is fraud or not , Since I was un-aware of features in datasets , My Aim was to just build a model which operates on GUI Interface , This is the my First Project which includes Machine learning technique
 
 GUI Looks like ... : 
 
