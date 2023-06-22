@@ -24,7 +24,7 @@ This project aims to develop a credit card fraud detection system using machine 
 The data preprocessing part involves loading the credit card dataset from a CSV file and performing exploratory data analysis (EDA) to gain insights into the data. The following steps are performed:<br>
 
     The dataset is loaded using the pandas library.
-    Initial data exploration is conducted by displaying the first few rows of the dataset using the ** head() ** function.
+    Initial data exploration is conducted by displaying the first few rows of the dataset using the head() function.
     Missing values in the dataset are identified using the isnull().sum() function.
     The distribution of the 'Time' column is analyzed by counting the occurrences of each unique value using value_counts().sum().
     The 'Time' column is dropped from the dataset as it is not relevant for the fraud detection task.
@@ -35,15 +35,15 @@ After data preprocessing, the dataset is split into training and testing sets us
 
 The model deployment part involves training a Decision Tree Classifier on the preprocessed data and creating a Flask web application for fraud prediction. The following steps are performed:<br><br>
 
-    A Decision Tree Classifier is initialized with the entropy criterion and a random state of 0.<br>
-    The classifier is trained on the training data using fit(X_train, y_train).<br>
-    Predictions are made on the testing data using predict(X_test).<br>
-    The confusion matrix and accuracy score are computed using confusion_matrix(y_test, y_pred) and accuracy_score(y_test, y_pred), respectively.<br>
-    The trained classifier is serialized using the pickle library and saved as a file named "classifier.pkl".<br>
-    In the Flask web application, the "classifier.pkl" file is loaded using pickle.load(pickle_in).<br>
-    The Flask app is created, and a root page is defined to render the main GUI template.<br>
-    A POST request handler is defined to receive input values from the GUI form.<br>
-    The input values are used to make predictions using the loaded classifier.<br>
-    The predicted result is displayed in the output GUI template.<br><br>
+    A Decision Tree Classifier is initialized with the entropy criterion and a random state of 0.
+    The classifier is trained on the training data using fit(X_train, y_train).
+    Predictions are made on the testing data using predict(X_test).
+    The confusion matrix and accuracy score are computed using confusion_matrix(y_test, y_pred) and accuracy_score(y_test, y_pred), respectively.
+    The trained classifier is serialized using the pickle library and saved as a file named "classifier.pkl".
+    In the Flask web application, the "classifier.pkl" file is loaded using pickle.load(pickle_in).
+    The Flask app is created, and a root page is defined to render the main GUI template.
+    A POST request handler is defined to receive input values from the GUI form.
+    The input values are used to make predictions using the loaded classifier.
+    The predicted result is displayed in the output GUI template.
 
 To run the web application, execute the script and access the provided URL. The web application allows users to enter credit card transaction details and predicts whether the transaction is fraudulent or not.<br>
